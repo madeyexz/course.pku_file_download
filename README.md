@@ -34,7 +34,7 @@ Ian Xiao
 
 ### 三、下载
 
-1. MacOS: 为了使用chrome快速下载，我们先配置一个`alias`，如果你不是
+1. MacOS: 为了使用chrome快速下载，我们先配置一个`alias`
 
    ``` bash
    alias chrome='/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome'
