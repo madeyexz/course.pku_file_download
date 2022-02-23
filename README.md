@@ -22,12 +22,15 @@ Ian Xiao
    ````bash
    grep -o -e '/bbcswebdav/[^"]*_2' html.txt > file.txt
    ````
-
+   
+   
 2. 加上网站前缀 
 
    ````bash
    sed -i -e 's/^/https:\/\/course.pku.edu.cn/' file.txt
    ````
+   
+   如此链接就都配置好了
 
 ### 三、下载
 
