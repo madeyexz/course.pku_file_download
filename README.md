@@ -13,7 +13,7 @@ Ian Xiao
 1. 登入教学网，打开 `课程内容`
 2. `⌘ + ⌥ + I` 或右上角打开开发者工具
 3. 在`element`栏目点开`<body id: ..>`里，右键`Edit as HTML`，然后把所有东西复制下来
-4. `cd ~/Desktop; vim html.txt`, 把刚才复制的文件黏贴
+4. `cd ~/Desktop; vim html.txt`(或在桌面新建`html.txt`), 把刚才复制的内容黏贴进去
 
 ### 二、获得教学网的链接
 
