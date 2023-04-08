@@ -19,7 +19,7 @@ Ian Xiao
 ### 二、一行代码版本（MacOS）
 
 ```bash
-grep -o -e '/bbcswebdav/[^"]*_2' html.txt | sed 's/^/https:\/\/course.pku.edu.cn/' | xargs open
+grep -o -e '/bbcswebdav/[^"]*_1' html.txt | sed 's/^/https:\/\/course.pku.edu.cn/' | xargs open
 ```
 
 ### 三、按步骤执行（MacOS & Windows）
@@ -29,7 +29,7 @@ grep -o -e '/bbcswebdav/[^"]*_2' html.txt | sed 's/^/https:\/\/course.pku.edu.cn
 1. 获得教学网与下载链接相关的链接
 
    ````bash
-   grep -o -e '/bbcswebdav/[^"]*_2' html.txt > file.txt
+   grep -o -e '/bbcswebdav/[^"]*_1' html.txt > file.txt
    ````
    
 2. 加上网站前缀 
